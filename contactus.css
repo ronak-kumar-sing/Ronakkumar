@@ -113,17 +113,24 @@ section::before
     font-weight: 300;
 }
 
-.container .contactInfo ul.sci
+.container .contactInfo ul.sci 
 {
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
-.container .contactInfo ul.sci li
+.container .contactInfo ul.sci li 
 {
    list-style: none;  
    margin-right: 15px;
 }
+/* .container .contactInfo ul.sci .left{
+    float: left;
+}*/
+/* .container .contactInfo ul.sci .right a{
+    align-self: flex-end;
+} */
 
 .container .contactInfo ul.sci li a
 {
@@ -205,7 +212,9 @@ section::before
 {
     height: 120px;
 }
-
+button a{
+    color:#fff;
+}
 .container .contactForm .formBox .inputBox span 
 {
     position: absolute;
@@ -266,6 +275,7 @@ section::before
         position: relative;
         box-shadow: none;
         border-radius: 0px;
+
     }
 
     .container .contactForm

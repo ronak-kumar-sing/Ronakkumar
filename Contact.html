@@ -44,44 +44,46 @@
                         </ul>
                     </div>
                     <ul class="sci">
-                        <li><a href="https://www.facebook.com/profile.php?id=100081550268167"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/_ronak.kumar/"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/RonakKumar25401"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ronak-kumar-a2b721285/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="left"><a href="https://www.facebook.com/profile.php?id=100081550268167"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="left"><a href="https://www.instagram.com/_ronak.kumar/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="left"><a href="https://twitter.com/RonakKumar25401"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="right"><a href="https://www.linkedin.com/in/ronak-kumar-a2b721285/"><i class="fa-brands fa-linkedin"></i></a></li>
                         
                     </ul>
                 </div>
                     <div class="contactForm">
                         <h2>Send a Message</h2>
+                        <form action="https://formspree.io/f/xpzvobyd" method="POST">
                         <div class="formBox">
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>First Name</span>
+                            <div class="inputBox w50">
+                                <input type="text" name="name" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" required autocomplete="off">
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="email" name="email" required autocomplete="off">
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" required autocomplete="off">
+                                <span>Mobile Number</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <textarea required name="message" autocomplete="off"></textarea>
+                                <span>Write your message here...</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <input type="submit" value="Send" autocomplete="off">
+                            </div>
                         </div>
-                        <div class="inputBox w50">
-                            <input type="text" required>
-                            <span>Last Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="email" required>
-                            <span>Email Address</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" required>
-                            <span>Mobile Number</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <textarea required></textarea>
-                            <span>Write your message here...</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <input type="submit" value="Send">
-                        </div>
+                    </form>
                     </div>
                 </div>
-                    
-                    
-             
         </section>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="contact.js"></script>
     </body>
 </html>
