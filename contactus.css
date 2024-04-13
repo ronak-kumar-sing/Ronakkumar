@@ -14,7 +14,7 @@ section
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #095a55;
+    background-color: #0c2624;
 
 }
 section::before
@@ -25,7 +25,7 @@ section::before
     left: 0;
     width: 50%;
     height: 100%;
-    background: #fff38e;
+    background: #6e6405;
 }
 
 .container
@@ -46,7 +46,7 @@ section::before
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: #095a55;
+    background: #092322;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -95,6 +95,10 @@ section::before
     min-width: 30px;
     
 }
+.container .contactInfo ul.info li span i{
+    height: 30px;
+    color: #899a96;
+}
 
 .container .contactInfo ul.info li span:nth-child(1) img
 {
@@ -124,6 +128,13 @@ section::before
 .container .contactInfo ul.sci li a
 {
    text-decoration: none;
+   transition: all .4s ease-in-out;
+   color: #fff;
+   font-size: 27px;
+}
+.container .contactInfo ul.sci li a:hover
+{
+    color: #ff7b7b;
 }
 
 .container .contactInfo ul.sci li a img
