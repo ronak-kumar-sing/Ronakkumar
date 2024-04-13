@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .role {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about,
+  .hobbies,
+  .certifications,
+  .mission {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .about:nth-child(2),
+  .hobbies:nth-child(3),
+  .certifications:nth-child(4),
+  .mission:nth-child(5) {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .about h2,
+  .hobbies h2,
+  .certifications h2,
+  .mission h2 {
+    color: #555;
+  }
+  
+  .about p,
+  .hobbies p,
+  .certifications p,
+  .mission p {
+    color: #666;
+  }
