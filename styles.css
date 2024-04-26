@@ -181,8 +181,8 @@ ul li a:hover {
 
 .portfolio {
   color: var(--primary-color);
+  transition: .3s;
 }
-
 .portfolio:hover {
   background-color: var(--primary-color-dark);
   color: #ffffff;
