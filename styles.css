@@ -205,6 +205,45 @@ ul li a:hover {
 .image img:hover{
   transform: scale(1.1);
 }
+*{
+  margin: 0%;;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: #1b1b1f;
+  cursor: none;
+}
+.cursor-dot{
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(9, 49, 128);
+  transition: transform 0.05s ease;
+}
+.cursor-outline{
+  top: -11.9px;
+  left: -11.9px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsla(156, 27%, 24%, 0.98);
+  transition: transform 0.05s ease;
+}
+.cursor-dot,
+.cursor-outline{
+  position: fixed;
+  /* top: 0;
+  left: 0; */
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index: 111;
+  pointer-events: none;
+
+}
+
+
 @media (max-width: 750px) {
   nav .checkbox {
     display: block;
